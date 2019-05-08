@@ -1,3 +1,16 @@
 Optimization problem
 
 In mathematics and computer science, an optimization problem is the problem of finding the best solution from all feasible solutions. 
+
+
+
+Convolution
+
+Consider a dynamic system, in which an input signal, say x(t), enters a “black box”, S, and is output as y(t):
+
+Mathematically, we represent the “black box” system as S:
+
+     y(t) = S[x(0 to t)]
+
+where y(t) represents the output signal at time t, and x(0 to t) represents the time history of the input signal. 
+If the “black box” represents a convolution, it means that S takes on the following mathematical form:
